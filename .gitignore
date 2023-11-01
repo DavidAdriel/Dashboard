@@ -1,0 +1,33 @@
+# Archivos generados por Python
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpeta virtualenv
+venv/
+
+# Carpeta de configuración de Visual Studio Code
+.vscode/
+
+# Archivo de entorno (por ejemplo, .env)
+.env
+
+# Carpeta de salida de construcción
+build/
+
+# Carpeta de librerías instaladas
+lib/
+
+# Carpeta de distribución
+dist/
+
+# Carpeta de archivos temporales
+_pycache_/
+*.pyc
+
+# Carpeta de archivos de caché
+.cache/
+
+# Archivo de registro
+*.log
