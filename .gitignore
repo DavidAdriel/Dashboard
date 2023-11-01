@@ -31,3 +31,6 @@ _pycache_/
 
 # Archivo de registro
 *.log
+
+# API KEYS
+key.json

@@ -8,10 +8,10 @@ from plotly.subplots import make_subplots
 import plotly.express as px
 import dash
 import dash_core_components as dcc
-import dash_html_components as html
-from dash import dash_table
 import dash_leaflet as dl
 import dash_leaflet.express as dlx
+import dash_html_components as html
+from dash import dash_table
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
 from flask import Flask, render_template
@@ -19,8 +19,6 @@ from flask import Flask, render_template
 
 #Librerias para la regresión lineal
 from sklearn.linear_model import LinearRegression
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.neighbors import KNeighborsRegressor
 
 #Librerias para el formato de la hora
 from datetime import datetime
