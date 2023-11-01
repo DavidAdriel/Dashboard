@@ -34,3 +34,14 @@ _pycache_/
 
 # API KEYS
 key.json
+
+# Carpeta y archivos relacionados con dependencias de Python
+markupsafe/
+MarkupSafe-*.dist-info/
+werkzeug/
+Werkzeug-*.dist-info/
+
+# Otros
+.vercel
+.venv
+

@@ -1,7 +1,17 @@
 {
     "version": 2,
-    "builds": [{ "src": "app.py", "use": "@now/python" }],
-    "routes": [{ "src": "/(.*)", "dest": "/app.py" }],
+    "builds": [
+      {
+        "src": "leer.py",
+        "use": "@now/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/leer.py"
+      }
+    ],
     "env": {
       "GOOGLE_SHEETS_CREDS": "@keys"
     }
